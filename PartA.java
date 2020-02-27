@@ -2,6 +2,9 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.ArrayList;
 
 public class PartA {
 	public static void main(String[] args) {
@@ -9,7 +12,8 @@ public class PartA {
 		String temp;
 		int support = 3, confidence = 65;
 		Scanner s;
-		HashMap<String[2], int> map = new HashMap<String[2], int>();
+//		HashMap<String[2], int> map = new HashMap<String[2], int>();
+		List<Map<String,List<String>>> list = new ArrayList<Map<String,List<String>>>();
 		if (args.length > 1) {
 			support = Integer.parseInt(args[1]);
 			confidence = Integer.parseInt(args[2]);
