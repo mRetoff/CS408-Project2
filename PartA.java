@@ -15,11 +15,6 @@ public class PartA {
 		String temp;
 		int support = 3, confidence = 65; //initially set to default values
 
-		if (args.length == 3) { //get defined values
-			support = Integer.parseInt(args[1]);
-			confidence = Integer.parseInt(args[2]);
-		}
-
 		Scanner s;
 //		HashMap<String[2], int> map = new HashMap<String[2], int>();
 		List<Map<String,List<String>>> map = new ArrayList<Map<String,List<String>>>();
