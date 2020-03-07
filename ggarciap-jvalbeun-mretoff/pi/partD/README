@@ -1,5 +1,5 @@
 This is a basic implementation of the algorithm proposed by Jingyue Wu. The program main goal is to
-dynamically observes the pointer addresses in the test program, and then checks these addresses 
+dynamically observe the pointer addresses in the test program, and then checks these addresses 
 against an alias analysis for errors.
 
 We are just including the implementation of the code where the bug detection and the pointer analysis
