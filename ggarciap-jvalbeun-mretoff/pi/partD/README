@@ -1,0 +1,11 @@
+This is a basic implementation of the algorithm proposed by Jingyue Wu. The program main goal is to
+dynamically observes the pointer addresses in the test program, and then checks these addresses 
+against an alias analysis for errors.
+
+We are just including the implementation of the code where the bug detection and the pointer analysis
+is done after the user specifies that the program is going to run on the "offline" mode. 
+
+we assume the program name is hello, and the alias
+analysis we are checking is basicaa.
+
+Due to time constraints we couldn't finish the whole implementation, but the basic structure for keeping track of the methods is implemented, we still needed to implement the graph structure then based on the call graph build one. 
